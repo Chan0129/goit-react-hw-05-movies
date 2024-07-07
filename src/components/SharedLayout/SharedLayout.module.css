@@ -1,0 +1,39 @@
+.header {
+  background-color: rgb(182, 182, 182);
+  height: 50px;
+  box-shadow: 0 0 3px 3px rgba(32, 33, 23, 0.5);
+  border: 1px solid #dad7d7;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbox {
+  display: flex;
+  gap: 30px;
+  margin: 10px 0px 0px 20px;
+
+  justify-content: start;
+}
+.navLink {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(32, 32, 32);
+  transition: 300ms ease-in-out;
+}
+.navLink:hover,
+.navLink:focus,
+.navLink .active {
+  color: hsl(34, 100%, 65%);
+  font-weight: 600;
+  transform: scale(1.03);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
